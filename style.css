@@ -48,20 +48,66 @@ div{
     
 .static_position{
     position: static ;
+    background-color: #c77d88;
+    width: 200px;
+    height: 200px;
 }
 
 .relative_position{
     position: relative;
+    background-color: #25b788;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    right: -550px;
 }
 
 .absolute_position{
     position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #adc06a;
+    left: 90px;
 }
 
 .fixed_position{
-    position: fixed
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #7d9fc7;
+    width: 100dvw;
+    height: 100px;
+    bottom: 0;
 }
 
 .sticky_position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
+    background-color: #9525b7;
+    width: 100dvw;
+    height: 100px;
+    top: 0;
+
+}
+
+.div_link_to_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link_to_home{
+    all: unset;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C2029;
+    border-radius: 100%;
 }

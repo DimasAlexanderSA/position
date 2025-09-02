@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Position and Display</title>
 </head>
+
 <body class="bg-[#030712] text-[#F2F2F2] flex flex-col">
     <style>
     </style>
@@ -15,41 +17,72 @@
     <div class="flex flex-col items-center">
         <p class="text-[16px] font-medium ml-6"> display: block </p>
         <div class="flex justify-center items-center bg-[#1C2029] w-[75dvw] rounded-md  h-68">
-                <div class="block_display">this is block display</div>
-        </div>  
+            <div class="block_display">this is block display</div>
+        </div>
     </div>
 
-     <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center">
         <p class="text-[16px] font-medium ml-6"> display: inline </p>
         <div class="flex justify-center items-center bg-[#1C2029] w-[75dvw] rounded-md h-68">
-                <span class="inline_display">this is inline display</span>
-        </div>  
+            <span class="inline_display">this is inline display</span>
+        </div>
     </div>
 
 
-     <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center">
         <p class="text-[16px] font-medium ml-6"> display: inline-block </p>
         <div class="flex justify-center items-center bg-[#1C2029] w-[75dvw] rounded-md h-68">
-                <p class="inline mr-1">this is</p>
-                <span class="inline-block_display">inline-block display</span>
-        </div>  
+            <p class="inline mr-1">this is</p>
+            <span class="inline-block_display">inline-block display</span>
+        </div>
     </div>
-       <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center">
         <p class="text-[16px] font-medium ml-6"> display: flex </p>
         <div class="flex justify-center items-center bg-[#1C2029] w-[75dvw] rounded-md  h-68">
-                <div class="flex_display">this is flex display</div>
-        </div>  
+            <div class="flex_display">this is flex display</div>
+        </div>
     </div>
-       <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center">
         <p class="text-[16px] font-medium ml-6"> display: grid </p>
         <div class="flex justify-center items-center bg-[#1C2029] w-[75dvw] rounded-md  h-68">
-                <div class="grid_display">
-                    <div>this</div>
-                    <div>is</div>
-                    <div>grid</div>
-                    <div>display</div>
-                </div>
-        </div>  
+            <div class="grid_display">
+                <div>this</div>
+                <div>is</div>
+                <div>grid</div>
+                <div>display</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <p class="text-[16px] font-medium ml-6"> position: static </p>
+        <div class="flex justify-center items-center bg-[#1C2029] w-[75dvw] rounded-md  h-68">
+            <div class="static_position">
+                this is static (default) position
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col items-center">
+        <p class="text-[16px] font-medium ml-6"> position: relative</p>
+        <div class="bg-[#1C2029] w-[75dvw] rounded-md  h-68">
+            <div class="relative_position">
+                this is relative position
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <p class="text-[16px] font-medium ml-6"> position: absolute</p>
+        <div class="bg-[#1C2029] w-[75dvw] rounded-md  h-68">
+            <div class="absolute_position">
+                this is absolute position
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <a class="rounded-full bg-[#1C2029] w-10 h-10 flex justify-center items-center" href="another.html">>></a>
     </div>
 </body>
+
 </html>
