@@ -1,3 +1,8 @@
+div{
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
 #title{
     display: flex;
     justify-content: center;
@@ -16,8 +21,6 @@
 .inline_display{
     background-color: #25b788;
     display: inline;
-    width: 200px;
-    height: 200px;
 }
 
 .inline-block_display{
@@ -28,4 +31,37 @@
 }
 
 
+.flex_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d9fc7;
+    width: 500px;
+    height: 200px;
+}
 
+.grid_display{
+    background-color: #9525b7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+.static_position{
+    position: static ;
+}
+
+.relative_position{
+    position: relative;
+}
+
+.absolute_position{
+    position: absolute;
+}
+
+.fixed_position{
+    position: fixed
+}
+
+.sticky_position{
+    position: sticky;
+}
