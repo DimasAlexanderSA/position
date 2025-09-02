@@ -1,0 +1,31 @@
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100px;
+}
+
+.block_display{
+    background-color: #c77d88;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.inline_display{
+    background-color: #25b788;
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+
+.inline-block_display{
+    display: inline-block;
+    background-color: #adc06a;
+    width: 200px;
+    height: 200px;
+}
+
+
+
